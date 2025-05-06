@@ -30,7 +30,7 @@ for result in geocodes.get('results', []):
     data.append({
       'lat': lat, 
       'lng': long,
-      'school_district': school_district
+      'school_district': school_districts
     })
 
 df_final = pd.DataFrame(data)
