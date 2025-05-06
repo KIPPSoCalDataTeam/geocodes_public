@@ -31,5 +31,6 @@ for result in geocodes.get('results', []):
       'lat': lat, 
       'lng': long,
       'school_district': school_district
+    })
 
 df_final = pd.DataFrame(data)
