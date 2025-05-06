@@ -7,7 +7,7 @@ class Geocodio():
     """Class to retrieve geocodes from Geocodio"""
     def __init__(self):
         self.url = 'url'
-        self.key = 'your_api_key'
+        self.key = ''
         self.addresses = None
 
     def get_geocodes(self):
