@@ -19,7 +19,7 @@ class Geocodio():
 
         params = {
             'api_key': self.key,
-            'fields': 'school'      # Add any additional fields you want 
+            'fields': 'school',      # Add any additional fields you want 
             'limit': 1
             }
 
